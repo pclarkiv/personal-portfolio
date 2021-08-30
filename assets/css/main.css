@@ -176,7 +176,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.35em;
+		font-size: 2em;
 		line-height: 1.75em;
 	}
 
@@ -2685,6 +2685,7 @@ input, select, textarea {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		margin-bottom: 100px;
 	}
 
 		.spotlight .image {
@@ -2693,7 +2694,8 @@ input, select, textarea {
 			-ms-order: 1;
 			order: 1;
 			border-radius: 0;
-			width: 40%;
+			width: 100%;
+			margin-right: 35px;
 		}
 
 			.spotlight .image img {
@@ -2702,20 +2704,13 @@ input, select, textarea {
 			}
 
 		.spotlight .content {
-			padding: 2em 4em 0.1em 4em ;
+			padding: 7px;
 			-moz-order: 2;
 			-webkit-order: 2;
 			-ms-order: 2;
 			order: 2;
-			max-width: 48em;
-			width: 60%;
-		}
-
-		.spotlight:nth-child(2n) {
-			-moz-flex-direction: row-reverse;
-			-webkit-flex-direction: row-reverse;
-			-ms-flex-direction: row-reverse;
-			flex-direction: row-reverse;
+			max-width: 60em;
+			width: 100%;
 		}
 
 		.spotlight:nth-child(1) {
@@ -3159,7 +3154,7 @@ input, select, textarea {
 		}
 
 		.wrapper.style5 {
-			background-color: black;
+			background-color: transparent
 			color: #4E4852;
 		}
 
