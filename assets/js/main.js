@@ -3,6 +3,15 @@
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
+const colorChange = document.querySelector('.col');
+
+colorChange.addEventListener('mouseover', function() {
+	colorChange.style.color = 'grey';
+});
+colorChange.addEventListener('mouseout', function() {
+	colorChange.style.color = '#ffe700';
+});
+
 
 (function($) {
 
@@ -79,6 +88,7 @@
 			});
 
 		}
+
 
 
 })(jQuery);
